@@ -3,6 +3,7 @@
 #define QDXFWRITER_H
 #include "DxfConst.h"
 #include <QFile>
+#include <QTextStream>
 /************************************************************************
 * @brief use to do raw file write.User can use QDxfParser instead.
 * @note
@@ -23,6 +24,7 @@ public:
     bool openFile(const QString& filePath);
 private:
     QFile myFile;
+    QTextStream* outStream;
 };
 #endif // QDXFWRITER_H
 

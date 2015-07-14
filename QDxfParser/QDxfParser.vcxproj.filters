@@ -31,6 +31,9 @@
     <ClCompile Include="QDxfParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="QDxfLineType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QDxfWriter.h">
@@ -40,6 +43,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DxfConst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QDxfLineType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,6 +1,6 @@
 #include "qdxfparser.h"
 
-QDxfParser::QDxfParser()
+QDxfParser::QDxfParser( QDxfWriter* writer /*= NULL*/ ):m_writer(writer)
 {
 
 }

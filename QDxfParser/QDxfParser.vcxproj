@@ -71,11 +71,13 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="QDxfLineType.cpp" />
     <ClCompile Include="QDxfParser.cpp" />
     <ClCompile Include="QDxfWriter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DxfConst.h" />
+    <ClInclude Include="QDxfLineType.h" />
     <ClInclude Include="QDxfParser.h" />
     <ClInclude Include="QDxfWriter.h" />
   </ItemGroup>
