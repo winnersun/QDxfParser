@@ -8,6 +8,7 @@ QDxfWriter::QDxfWriter(void)
 
 QDxfWriter::~QDxfWriter(void)
 {
+    myFile.close();
 }
 
 void QDxfWriter::writeString( int code ,const QString& value )
@@ -56,5 +57,7 @@ bool QDxfWriter::openFile( const QString& filePath )
     if (!myFile.open(QIODevice::WriteOnly | QIODevice::Text))
         return false;
     outStream = new QTextStream(&myFile);
+    //QTextCodec*
+    //outStream->setCodec()
     return true;
 }
