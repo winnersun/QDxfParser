@@ -57,6 +57,7 @@ bool QDxfWriter::openFile( const QString& filePath )
     if (!myFile.open(QIODevice::WriteOnly | QIODevice::Text))
         return false;
     outStream = new QTextStream(&myFile);
+    outStream->setCodec("ANSI");
     //QTextCodec*
     //outStream->setCodec()
     return true;

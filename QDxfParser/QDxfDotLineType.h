@@ -1,14 +1,15 @@
 #pragma once
 #include "qdxflinetype.h"
-#include <QVector>
+#include <QList>
 class QDxfDotLineType :
     public QDxfLineType
 {
 public:
     QDxfDotLineType(void);
+    QDxfDotLineType(QString lineTypeName ,QString description);
     virtual ~QDxfDotLineType(void);
     virtual void write(QDxfWriter* writer);
 protected:
-    QVector<double> elementLength;
+    QList<double> m_elementLength;
 };
 

@@ -77,6 +77,7 @@
     <ClCompile Include="QDxfLine.cpp" />
     <ClCompile Include="QDxfLineType.cpp" />
     <ClCompile Include="QDxfParser.cpp" />
+    <ClCompile Include="QDxfStyle.cpp" />
     <ClCompile Include="QDxfWriter.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +88,7 @@
     <ClInclude Include="QDxfLine.h" />
     <ClInclude Include="QDxfLineType.h" />
     <ClInclude Include="QDxfParser.h" />
+    <ClInclude Include="QDxfStyle.h" />
     <ClInclude Include="QDxfWriter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

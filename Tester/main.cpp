@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
     if(writer.openFile("D:/test1.dxf"))
     {
         QDxfParser parser(&writer);
-        parser.addLType(new QDxfLineType);
+        parser.addLType(new QDxfLineType(QString::fromLocal8Bit("≤‚ ‘1"),QString::fromLocal8Bit("≤‚ ‘1")));
         parser.addLType(new QDxfDotLineType);
         parser.write();
     }
