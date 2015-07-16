@@ -62,3 +62,11 @@ bool QDxfWriter::openFile( const QString& filePath )
     //outStream->setCodec()
     return true;
 }
+
+void QDxfWriter::eof()
+{
+    if (outStream)
+    {
+        *outStream<<QString::number(0)<<endl<<QString::fromStdString(c_sEOF)<<endl;
+    }
+}

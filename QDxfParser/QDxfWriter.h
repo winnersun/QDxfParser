@@ -21,6 +21,7 @@ public:
     void writeInt(int code, int value);
     void startSection();
     void endSection();
+    void eof();
     bool openFile(const QString& filePath);
 private:
     QFile myFile;
