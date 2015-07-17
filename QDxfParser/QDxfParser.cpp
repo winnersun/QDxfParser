@@ -1,6 +1,6 @@
 #include "qdxfparser.h"
 
-QDxfParser::QDxfParser( QDxfWriter* writer /*= NULL*/ ):m_writer(writer)
+QDxfParser::QDxfParser( QDxfWriter* writer):m_writer(writer)
 {
 
 }
@@ -85,4 +85,9 @@ void QDxfParser::addStyle( QDxfStyle* dxfStyle )
 void QDxfParser::addText( QDxfText* dxfText )
 {
     textList.append(dxfText);
+}
+
+void QDxfParser::setWriter( QDxfWriter* writer )
+{
+    m_writer = writer;
 }
