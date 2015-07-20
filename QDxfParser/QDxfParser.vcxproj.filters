@@ -31,6 +31,27 @@
     <ClCompile Include="QDxfParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="QDxfLineType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QDxfDotLineType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QDxfLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QDxfLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DxfCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QDxfStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QDxfText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QDxfWriter.h">
@@ -40,6 +61,27 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DxfConst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QDxfLineType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QDxfDotLineType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QDxfLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QDxfLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DxfCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QDxfStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QDxfText.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

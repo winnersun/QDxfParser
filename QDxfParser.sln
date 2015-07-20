@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QDxfParser", "QDxfParser\QDxfParser.vcxproj", "{66EA23D2-C4B1-4960-B0C6-53058635B056}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tester", "Tester\Tester.vcxproj", "{2EEA9C66-CAFB-443F-A3AC-C45F0B8FD2E3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{66EA23D2-C4B1-4960-B0C6-53058635B056} = {66EA23D2-C4B1-4960-B0C6-53058635B056}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +18,10 @@ Global
 		{66EA23D2-C4B1-4960-B0C6-53058635B056}.Debug|Win32.Build.0 = Debug|Win32
 		{66EA23D2-C4B1-4960-B0C6-53058635B056}.Release|Win32.ActiveCfg = Release|Win32
 		{66EA23D2-C4B1-4960-B0C6-53058635B056}.Release|Win32.Build.0 = Release|Win32
+		{2EEA9C66-CAFB-443F-A3AC-C45F0B8FD2E3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2EEA9C66-CAFB-443F-A3AC-C45F0B8FD2E3}.Debug|Win32.Build.0 = Debug|Win32
+		{2EEA9C66-CAFB-443F-A3AC-C45F0B8FD2E3}.Release|Win32.ActiveCfg = Release|Win32
+		{2EEA9C66-CAFB-443F-A3AC-C45F0B8FD2E3}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
