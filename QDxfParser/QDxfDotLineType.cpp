@@ -9,11 +9,15 @@ QDxfDotLineType::QDxfDotLineType(void)
     m_lineTypeName = "DotLine";
     //description = QString::fromLocal8Bit("µãÏß¶Î");
     m_description = "DotLine";
+	m_patternLength = 3.17;
 }
 
 QDxfDotLineType::QDxfDotLineType( QString lineTypeName ,QString description ):QDxfLineType(lineTypeName,description)
 {
-
+	m_elementCount = 2;
+	m_elementLength.push_back(0.00);
+	m_elementLength.push_back(-3.17);
+	m_patternLength = 3.17;
 }
 
 
@@ -30,7 +34,7 @@ void QDxfDotLineType::write( QDxfWriter* writer )
     writer->writeInt(72,m_alignment);
     writer->writeInt(73,m_elementCount);
     writer->writeReal(40,m_patternLength);
-    Q_FOREACH(int length,m_elementLength)
+    Q_FOREACH(double length,m_elementLength)
     {
         writer->writeReal(49,length);
     }

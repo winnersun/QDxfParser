@@ -8,6 +8,7 @@
 #include "QDxfLayer.h"
 #include "QDxfStyle.h"
 #include "QDxfText.h"
+#include "QDxfDashLineType.h"
 
 class QDxfParser
 {

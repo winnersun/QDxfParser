@@ -13,8 +13,10 @@ int main(int argc, char *argv[])
         parser.addLType(solidLineType);
         QDxfDotLineType* dotLineType = new QDxfDotLineType;
         parser.addLType(dotLineType);
+		QDxfDashLineType* dashLineType = new QDxfDashLineType;
+		parser.addLType(dashLineType);
 
-        QDxfLayer* barLayer = new QDxfLayer(QString::fromLocal8Bit("¸Ö½î"),solidLineType->lineTypeName(),QColor(Qt::yellow));
+        QDxfLayer* barLayer = new QDxfLayer(QString::fromLocal8Bit("¸Ö½î"),dashLineType->lineTypeName(),QColor(Qt::yellow));
         parser.addLayer(barLayer);
         QDxfLayer* barNameLayer = new QDxfLayer(QString::fromLocal8Bit("¸Ö½îÃû"),solidLineType->lineTypeName(),QColor(Qt::white));
         parser.addLayer(barNameLayer);

@@ -1,4 +1,7 @@
-#pragma once
+
+#ifndef QDXFDOTLINETYPE_H
+#define QDXFDOTLINETYPE_H
+
 #include "qdxflinetype.h"
 #include <QList>
 class QDxfDotLineType :
@@ -12,4 +15,5 @@ public:
 protected:
     QList<double> m_elementLength;
 };
+#endif // QDXFDOTLINETYPE_H
 

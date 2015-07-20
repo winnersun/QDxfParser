@@ -72,6 +72,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DxfCommon.cpp" />
+    <ClCompile Include="QDxfDashLineType.cpp" />
     <ClCompile Include="QDxfDotLineType.cpp" />
     <ClCompile Include="QDxfLayer.cpp" />
     <ClCompile Include="QDxfLine.cpp" />
@@ -84,6 +85,7 @@
   <ItemGroup>
     <ClInclude Include="DxfCommon.h" />
     <ClInclude Include="DxfConst.h" />
+    <ClInclude Include="QDxfDashLineType.h" />
     <ClInclude Include="QDxfDotLineType.h" />
     <ClInclude Include="QDxfLayer.h" />
     <ClInclude Include="QDxfLine.h" />
@@ -98,7 +100,7 @@
   </ImportGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties UicDir=".\GeneratedFiles" MocDir=".\GeneratedFiles\$(ConfigurationName)" MocOptions="" RccDir=".\GeneratedFiles" lupdateOnBuild="0" lupdateOptions="" lreleaseOptions="" Qt5Version_x0020_Win32="5.1.1" />
+      <UserProperties UicDir=".\GeneratedFiles" MocDir=".\GeneratedFiles\$(ConfigurationName)" MocOptions="" RccDir=".\GeneratedFiles" lupdateOnBuild="0" lupdateOptions="" lreleaseOptions="" Qt5Version_x0020_Win32="$(DefaultQtVersion)" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

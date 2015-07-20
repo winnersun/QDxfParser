@@ -52,6 +52,9 @@
     <ClCompile Include="QDxfText.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="QDxfDashLineType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QDxfWriter.h">
@@ -82,6 +85,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="QDxfText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QDxfDashLineType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
