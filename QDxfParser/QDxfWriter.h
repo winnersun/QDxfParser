@@ -23,9 +23,11 @@ public:
     void endSection();
     void eof();
     bool openFile(const QString& filePath);
+	int getHandleNum();
 private:
     QFile myFile;
     QTextStream* outStream;
+	static int handleNum;
 };
 #endif // QDXFWRITER_H
 

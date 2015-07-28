@@ -66,5 +66,9 @@ int qcolorToAutoCadColorIndex(QColor color)
     {
         return 44;
     }
+	else if (color == Qt::transparent)
+	{
+		return -10;
+	}
     return 0;
 }

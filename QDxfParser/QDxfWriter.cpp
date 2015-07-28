@@ -70,3 +70,11 @@ void QDxfWriter::eof()
         *outStream<<QString::number(0)<<endl<<QString::fromStdString(c_sEOF)<<endl;
     }
 }
+
+int QDxfWriter::getHandleNum()
+{
+	handleNum += 1;
+	return handleNum;
+}
+
+int QDxfWriter::handleNum = 200;

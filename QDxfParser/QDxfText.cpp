@@ -20,10 +20,10 @@ void QDxfText::write( QDxfWriter* writer )
     writer->writeString(8,m_layerName);
     writer->writeString(7,m_styleName);
     writer->writeReal(10,m_insertPoint.x());
-    writer->writeReal(20,-m_insertPoint.y());
+    writer->writeReal(20,m_insertPoint.y());
     writer->writeReal(30,0);
     writer->writeReal(11,m_alignmentPoint.x());
-    writer->writeReal(21,-m_alignmentPoint.y());
+    writer->writeReal(21,m_alignmentPoint.y());
     writer->writeReal(31,0);
     writer->writeReal(50,m_rotation);
     writer->writeInt(72,m_horizenAlign);

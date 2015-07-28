@@ -72,12 +72,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DxfCommon.cpp" />
+    <ClCompile Include="QDxfCircle.cpp" />
     <ClCompile Include="QDxfDashLineType.cpp" />
     <ClCompile Include="QDxfDotLineType.cpp" />
+    <ClCompile Include="QDxfEntity.cpp" />
     <ClCompile Include="QDxfLayer.cpp" />
     <ClCompile Include="QDxfLine.cpp" />
     <ClCompile Include="QDxfLineType.cpp" />
     <ClCompile Include="QDxfParser.cpp" />
+    <ClCompile Include="QDxfPolyLine.cpp" />
+    <ClCompile Include="QDxfSolid.cpp" />
+    <ClCompile Include="QDxfSolidCircle.cpp" />
+    <ClCompile Include="QDxfSolidRect.cpp" />
     <ClCompile Include="QDxfStyle.cpp" />
     <ClCompile Include="QDxfText.cpp" />
     <ClCompile Include="QDxfWriter.cpp" />
@@ -85,12 +91,18 @@
   <ItemGroup>
     <ClInclude Include="DxfCommon.h" />
     <ClInclude Include="DxfConst.h" />
+    <ClInclude Include="QDxfCircle.h" />
     <ClInclude Include="QDxfDashLineType.h" />
     <ClInclude Include="QDxfDotLineType.h" />
+    <ClInclude Include="QDxfEntity.h" />
     <ClInclude Include="QDxfLayer.h" />
     <ClInclude Include="QDxfLine.h" />
     <ClInclude Include="QDxfLineType.h" />
     <ClInclude Include="QDxfParser.h" />
+    <ClInclude Include="QDxfPolyLine.h" />
+    <ClInclude Include="QDxfSolid.h" />
+    <ClInclude Include="QDxfSolidCircle.h" />
+    <ClInclude Include="QDxfSolidRect.h" />
     <ClInclude Include="QDxfStyle.h" />
     <ClInclude Include="QDxfText.h" />
     <ClInclude Include="QDxfWriter.h" />

@@ -55,6 +55,24 @@
     <ClCompile Include="QDxfDashLineType.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="QDxfPolyLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QDxfSolidRect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QDxfSolidCircle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QDxfCircle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QDxfEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QDxfSolid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="QDxfWriter.h">
@@ -88,6 +106,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="QDxfDashLineType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QDxfPolyLine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QDxfSolidRect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QDxfSolidCircle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QDxfCircle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QDxfEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QDxfSolid.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

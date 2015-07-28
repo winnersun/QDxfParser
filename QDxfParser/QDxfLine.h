@@ -2,16 +2,13 @@
 #ifndef QDXFLINE_H
 #define QDXFLINE_H
 
-#include <QPoint>
-#include <QtGui/QColor>
-class QDxfWriter;
-class QDxfLine
+#include "QDxfEntity.h"
+class QDxfLine :public QDxfEntity
 {
 public:
-    //QDxfLine(void);
     QDxfLine(const QPointF& beginPoint ,const QPointF& endPoint ,const QString& layerName, QColor color = Qt::yellow);
     ~QDxfLine(void);
-    void write(QDxfWriter* writer);
+    virtual void write(QDxfWriter* writer);
 protected:
     QPointF m_beginPoint;
     QPointF m_endPoint;

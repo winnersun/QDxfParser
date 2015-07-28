@@ -18,7 +18,7 @@ void QDxfLine::write( QDxfWriter* writer )
     writer->writeString(8,m_layerName);
     writer->writeInt(62,qcolorToAutoCadColorIndex(m_color));
     writer->writeReal(10,m_beginPoint.x());
-    writer->writeReal(20,-m_beginPoint.y());
+    writer->writeReal(20,m_beginPoint.y());
     writer->writeReal(11,m_endPoint.x());
-    writer->writeReal(21,-m_endPoint.y());
+    writer->writeReal(21,m_endPoint.y());
 }

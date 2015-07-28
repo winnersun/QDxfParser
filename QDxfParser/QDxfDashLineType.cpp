@@ -4,21 +4,21 @@
 QDxfDashLineType::QDxfDashLineType(void)
 {
 	m_elementCount = 2;
-	m_elementLength.push_back(2.00);
-	m_elementLength.push_back(-2.00);
-	m_patternLength = 4;
-	m_lineTypeName = "DashLine";
+	m_elementLength.push_back(12.00);
+	m_elementLength.push_back(-18.00);
+	m_patternLength = 30;
+	m_lineTypeName = "ACAD_ISO03W100";
 	//description = QString::fromLocal8Bit("µ„œﬂ∂Œ");
-	m_description = "DashLine";
+	m_description = "ISO dash space __    __    __    __    __    __";
 	
 }
 
 QDxfDashLineType::QDxfDashLineType(QString lineTypeName ,QString description):QDxfLineType(lineTypeName,description)
 {
 	m_elementCount = 2;
-	m_elementLength.push_back(2.00);
-	m_elementLength.push_back(-2.00);
-	m_patternLength = 4;
+	m_elementLength.push_back(12.00);
+	m_elementLength.push_back(-18.00);
+	m_patternLength = 30;
 }
 
 
